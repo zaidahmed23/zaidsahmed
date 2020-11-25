@@ -1,28 +1,28 @@
 html, body {
-      
+
       margin: 0;
       padding: 0;
       cursor: none;
 }
 
 .nav-wrapper {
-      height:100%;
-      background: #bb8fce;
+      text-align: center;
+      display:block;
+
 }
 
-nav {
-      height: 40%;
-      vertical-align:center;
-      position: absolute;
-      text-align: bottom;
-}
+
 
 .hover-this {
       transition: all 0.3s ease;
 }
 
 span {
-      width:400px;
+      height:500px;
+      display:block;
+      height:2.5em;
+
+      padding:.01em 0 .01em 0;
       font-family: "Monument Extended";
       font-weight: 300;
       color: #fff;
@@ -30,15 +30,15 @@ span {
       text-transform: uppercase;
       pointer-events: none;
       transition: transform .1s linear;
-      
+
 }
 
 .cursor {
       pointer-events: none;
       position: fixed;
-      padding: 0.3rem;
+      padding: 0.5rem;
       background-color: #fff;
-      border-radius: 50%;
+      border-radius: 100%;
       mix-blend-mode: difference;
       transition: transform 0.3s ease;
 }
