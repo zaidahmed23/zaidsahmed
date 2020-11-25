@@ -1,0 +1,24 @@
+body{
+  margin:0;
+  font-family:"Monument Extended";
+  font-size:20px;
+  line-height:1.6;
+  color:#FBFCFC ;
+}
+#showcase{
+  background-image:url(pages/background.jpg);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding:0 20px;
+}
+#showcase .button{
+  font-size:40px;
+  text-decoration:none;
+  color:#F4D03F;
+  border:#F4D03F 5px solid;
+  padding:10px 20px;
+  border-radius:15px;
+}
