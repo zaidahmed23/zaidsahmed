@@ -1,16 +1,12 @@
 html, body {
-      align-items: center;
-      display: flex;
-      height: 180vh;
-      justify-content: center;
-
+      
       margin: 0;
       padding: 0;
       cursor: none;
 }
 
 .nav-wrapper {
-      width: 100%;
+      width: 200%;
       height: 150vh;
       background: #bb8fce;
 }
