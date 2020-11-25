@@ -18,7 +18,7 @@ nav {
       vertical-align:middle;
       margin: 0 auto;
       text-align: center;
-      position: static;
+      position: absolute;
       top: 50%;
 }
 
