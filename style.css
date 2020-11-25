@@ -16,7 +16,7 @@ nav {
       height: 100%;
       margin: 0 auto;
       text-align: center;
-      position: relative;
+      position: sticky;
       top: 50%;
 }
 
