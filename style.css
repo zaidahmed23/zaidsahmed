@@ -6,10 +6,8 @@ html, body {
 }
 
 .nav-wrapper {
-      display:block;
-      vertical-align:middle;
       width:100%;
-      line-height: 450vh;
+      height: 150vh;
       background: #bb8fce;
 }
 
@@ -35,7 +33,7 @@ span {
       text-transform: uppercase;
       pointer-events: none;
       transition: transform .1s linear;
-      vertical-align: middle;
+      
 }
 
 .cursor {
