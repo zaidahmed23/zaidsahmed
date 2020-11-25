@@ -8,7 +8,8 @@ html, body {
 .nav-wrapper {
       margin-left:auto;
       margin-right:auto;
-      height:50%;
+      width: auto;
+      height: 50%;
       background: #bb8fce;
 }
 
