@@ -6,8 +6,8 @@ html, body {
 }
 
 .nav-wrapper {
-      width: 200%;
-      height: 150vh;
+      height: 300vh;
+      width: 100%;
       background: #bb8fce;
 }
 
