@@ -6,7 +6,7 @@ body{
   color:#FBFCFC ;
 }
 #showcase{
-  background-image:url(pages/background.jpg);
+  background-image:url(portraits/background.jpg);
   height:100vh;
   display:flex;
   flex-direction:column;
