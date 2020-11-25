@@ -8,7 +8,7 @@ html, body {
 .nav-wrapper {
       display:block;
       vertical-align:middle;
-      width:8em;
+      width:400 px;
       line-height: 2em;
       background: #bb8fce;
 }
