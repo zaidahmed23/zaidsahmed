@@ -7,6 +7,7 @@ html, body {
 
 .nav-wrapper {
       display:block;
+      vertical-align:middle;
       width:8em;
       line-height: 2em;
       background: #bb8fce;
