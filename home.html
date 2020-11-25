@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	      <meta charset="UTF-8">
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	      <title>Home</title>
+	      <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	      <style>
+	  body{
+	    background-color:#bb8fce
+	  }
+	  h2{
+	    background-color:blue
+	
+
+	  }
+	
+
+	
+
+	</style>
+	<br>
+	
+
+	      <h2><font size=+5><center>ZAID AHMED</h2>
+	      <br>
+	
+
+	
+
+	      <center><img src="mypicture.JPG" height="400">
+	
+
+	
+
+	
+
+	      <div class="nav-wrapper">
+	
+
+	                  <a href="photozinefromhouston.html" class="hover-this"><span>Photozine vol. 1</span></a>
+	                  <a href="futurafree.html" class="hover-this"><span>Photozine vol. 2</span></a>
+	                  <a href="portraits.html"" class="hover-this"><span>Portraits</span></a>
+	                  <a href="inmyroom.html" class="hover-this"><span>35 mm- "In My Room"</span></a>
+	                  <a href="filmpicturesfromneighborhood.html" class="hover-this"><span>35 mm- "The Neighborhood"</span></a>
+	                  <a href="houstonvideo.html" class="hover-this"><span>Felt Like Summer To My December- Houston (video)</span></a>
+	                  <a href="houstonarchives.html" class="hover-this"><span>From the archives- Houston (video)</span></a>
+	                  <a href="boston.html" class="hover-this"><span>Boston- September 2020 (video)</span></a>
+	                  <a href="summerfinal.html" class="hover-this"><span>Summer 2020 (video)</span></a>
+	                  <a href="protectblacklife.html" class="hover-this"><span>Protect Black Life (poem)</span></a>
+	                  <a href="socialanxiety.html" class="hover-this"><span>Social Anxiety (poem)</span></a>
+	                  <div class="cursor"></div>
+	
+
+	      </div>
+	
+
+	<script>
+	
+
+	(function () {
+	
+
+	      const link = document.querySelectorAll('nav > .hover-this');
+	      const cursor = document.querySelector('.cursor');
+	
+
+	      const animateit = function (e) {
+	            const span = this.querySelector('span');
+	            const { offsetX: x, offsetY: y } = e,
+	            { offsetWidth: width, offsetHeight: height } = this,
+	
+
+	            move = 25,
+	            xMove = x / width * (move * 2) - move,
+	            yMove = y / height * (move * 2) - move;
+	
+
+	            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+	
+
+	            if (e.type === 'mouseleave') span.style.transform = '';
+	      };
+	
+
+	      const editCursor = e => {
+	            const { clientX: x, clientY: y } = e;
+	            cursor.style.left = x + 'px';
+	            cursor.style.top = y + 'px';
+	      };
+	
+
+	      link.forEach(b => b.addEventListener('mousemove', animateit));
+	      link.forEach(b => b.addEventListener('mouseleave', animateit));
+	      window.addEventListener('mousemove', editCursor);
+	
+
+	})();
+	
+
+	</script>
+	
+
+	
+
+	
+
+	
+
+	
+
+	<br>
+	<br>
+	<br>
+	
+
+	
+
+	</body>
+	</html>
