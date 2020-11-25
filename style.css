@@ -36,9 +36,9 @@ span {
 .cursor {
       pointer-events: none;
       position: fixed;
-      padding: 0.5rem;
+      padding: 0.3rem;
       background-color: #fff;
-      border-radius: 100%;
+      border-radius: 50%;
       mix-blend-mode: difference;
       transition: transform 0.3s ease;
 }
