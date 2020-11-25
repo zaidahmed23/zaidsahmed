@@ -1,4 +1,9 @@
 html, body {
+      align-items: center;
+      display: flex;
+      height: 180vh;
+      justify-content: center;
+
       margin: 0;
       padding: 0;
       cursor: none;
