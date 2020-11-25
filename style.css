@@ -34,7 +34,7 @@ span {
       font-size: 36px;
       text-transform: uppercase;
       pointer-events: none;
-      text-align:center;
+      transition: transform 0.1s linear;
 }
 
 .cursor {
