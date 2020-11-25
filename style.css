@@ -8,6 +8,9 @@ html, body {
 .nav-wrapper {
       text-align: center;
       display:block;
+      background: #3A9433;
+      padding:.5em;
+      margin:1em;
 
 }
 
@@ -36,9 +39,9 @@ span {
 .cursor {
       pointer-events: none;
       position: fixed;
-      padding: 0.3rem;
+      padding: 0.5rem;
       background-color: #fff;
-      border-radius: 50%;
+      border-radius: 100%;
       mix-blend-mode: difference;
       transition: transform 0.3s ease;
 }
