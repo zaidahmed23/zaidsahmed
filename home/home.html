@@ -1,125 +1,155 @@
 <!DOCTYPE html>
-	<html lang="en">
-	<head>
-	      <meta charset="UTF-8">
-	      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	      <title>Home</title>
-	      <link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-	      <style>
-	  body{
-	    background-color:#bb8fce
-	  }
-	  h2{
-	    background-color:blue
+		<html lang="en">
+		<head>
+		      <meta charset="UTF-8">
+		      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		      <title>Home</title>
+		      <link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+		      <style>
+		  body{
+		    background-color:#bb8fce
+		  }
+		  h2{
+		    background-color:blue
+		
 	
 
-	  }
+		  }
+		
 	
 
+		
 	
 
-	</style>
-	<br>
+		</style>
+		<br>
+		
 	
 
-	      <h2><font size=+5><center>ZAID AHMED</h2>
-	      <br>
+		      <h2><font size=+5><center>ZAID AHMED</h2>
+		      <br>
+		
 	
 
+		
 	
 
-	      <center><img src="mypicture.JPG" height="400">
+		      <center><img src="mypicture.JPG" height="400">
+		
 	
 
+		
 	
 
+		
 	
 
-	      <div class="nav-wrapper">
+		      <div class="nav-wrapper">
+		
 	
 
-	                  <a href="photozinefromhouston" class="hover-this"><span>Photozine vol. 1- The Cost of Living (photo)</span></a>
-	                  <a href="futurafree" class="hover-this"><span>Photozine vol. 2- Futura Free (photo)</span></a>
-	                  <a href="portraits" class="hover-this"><span>Portraits (photo)</span></a>
-	                  <a href="inmyroom" class="hover-this"><span>35 mm Film- "In My Room" (photo)</span></a>
-	                  <a href="filmpicturesfromneighborhood" class="hover-this"><span>35 mm Film- "The Neighborhood" (photo)</span></a>
-	                  <a href="houstonvideo" class="hover-this"><span>Felt Like Summer To My December- Houston (video)</span></a>
-	                  <a href="houstonarchives" class="hover-this"><span>From the archives- Houston (video)</span></a>
-	                  <a href="boston" class="hover-this"><span>Boston- September 2020 (video)</span></a>
-	                  <a href="summerfinal" class="hover-this"><span>Summer 2020 (video)</span></a>
-	                  <a href="protectblacklife" class="hover-this"><span>Protect Black Life (writing)</span></a>
-	                  <a href="socialanxiety" class="hover-this"><span>Social Anxiety (writing)</span></a>
-		      	  <a href="graphicprints" class="hover-this"><span>Graphic Illustrations (photo)</span></a>
-		      	  <a href="lightandshadows" class="hover-this"><span>Photozine vol. 3- An Ode to the Sun (photo)</span></a>
-	                  <div class="cursor"></div>
+		                  <a href="photozinefromhouston" class="hover-this"><span>Photozine vol. 1- The Cost of Living (photo)</span></a>
+		                  <a href="futurafree" class="hover-this"><span>Photozine vol. 2- Futura Free (photo)</span></a>
+		                  <a href="portraits" class="hover-this"><span>Portraits (photo)</span></a>
+		                  <a href="inmyroom" class="hover-this"><span>35 mm Film- "In My Room" (photo)</span></a>
+		                  <a href="filmpicturesfromneighborhood" class="hover-this"><span>35 mm Film- "The Neighborhood" (photo)</span></a>
+		                  <a href="houstonvideo" class="hover-this"><span>Felt Like Summer To My December- Houston (video)</span></a>
+		                  <a href="houstonarchives" class="hover-this"><span>From the archives- Houston (video)</span></a>
+		                  <a href="boston" class="hover-this"><span>Boston- September 2020 (video)</span></a>
+		                  <a href="summerfinal" class="hover-this"><span>Summer 2020 (video)</span></a>
+		                  <a href="protectblacklife" class="hover-this"><span>Protect Black Life (writing)</span></a>
+		                  <a href="socialanxiety" class="hover-this"><span>Social Anxiety (writing)</span></a>
+			      	  <a href="graphicprints" class="hover-this"><span>Graphic Illustrations (photo)</span></a>
+			      	  <a href="lightandshadows" class="hover-this"><span>Photozine vol. 3- An Ode to the Sun (photo)</span></a>
+		                  <br><br><a href="https://www.instagram.com/_zaid.a"><span><img src="instagram.jpg" height="50"></span></a>
+			      	  <div class="cursor"></div>
+		
 	
 
-	      </div>
+		      </div>
+		
 	
 
-	<script>
+		<script>
+		
 	
 
-	(function () {
+		(function () {
+		
 	
 
-	      const link = document.querySelectorAll('nav > .hover-this');
-	      const cursor = document.querySelector('.cursor');
+		      const link = document.querySelectorAll('nav > .hover-this');
+		      const cursor = document.querySelector('.cursor');
+		
 	
 
-	      const animateit = function (e) {
-	            const span = this.querySelector('span');
-	            const { offsetX: x, offsetY: y } = e,
-	            { offsetWidth: width, offsetHeight: height } = this,
+		      const animateit = function (e) {
+		            const span = this.querySelector('span');
+		            const { offsetX: x, offsetY: y } = e,
+		            { offsetWidth: width, offsetHeight: height } = this,
+		
 	
 
-	            move = 25,
-	            xMove = x / width * (move * 2) - move,
-	            yMove = y / height * (move * 2) - move;
+		            move = 25,
+		            xMove = x / width * (move * 2) - move,
+		            yMove = y / height * (move * 2) - move;
+		
 	
 
-	            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+		            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+		
 	
 
-	            if (e.type === 'mouseleave') span.style.transform = '';
-	      };
+		            if (e.type === 'mouseleave') span.style.transform = '';
+		      };
+		
 	
 
-	      const editCursor = e => {
-	            const { clientX: x, clientY: y } = e;
-	            cursor.style.left = x + 'px';
-	            cursor.style.top = y + 'px';
-	      };
+		      const editCursor = e => {
+		            const { clientX: x, clientY: y } = e;
+		            cursor.style.left = x + 'px';
+		            cursor.style.top = y + 'px';
+		      };
+		
 	
 
-	      link.forEach(b => b.addEventListener('mousemove', animateit));
-	      link.forEach(b => b.addEventListener('mouseleave', animateit));
-	      window.addEventListener('mousemove', editCursor);
+		      link.forEach(b => b.addEventListener('mousemove', animateit));
+		      link.forEach(b => b.addEventListener('mouseleave', animateit));
+		      window.addEventListener('mousemove', editCursor);
+		
 	
 
-	})();
+		})();
+		
 	
 
-	</script>
+		</script>
+		
 	
 
+		
 	
 
+		
 	
 
+		
 	
 
+		
 	
 
-	<br>
-	<br>
-	<br>
+		<br>
+		<br>
+		<br>
+		
 	
 
+		
 	
 
-	</body>
-	</html>
+		</body>
+		</html>
